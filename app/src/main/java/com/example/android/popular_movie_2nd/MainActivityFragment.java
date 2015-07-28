@@ -18,6 +18,19 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        /**
+         * Fake Images erstellen
+         */
+
+        private Integer[] imageGrid = {
+                R.mipmap.ic_launcher,
+                R.mipmap.ic_launcher,
+                R.mipmap.ic_launcher,
+                R.mipmap.ic_launcher,
+                R.mipmap.ic_launcher,
+                R.mipmap.ic_launcher
+        }
+
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 }
